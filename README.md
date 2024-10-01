@@ -1,3 +1,11 @@
+    ██╗    ██╗██████╗ ██████╗         ███╗   ██╗██████╗ ██╗    ██╗███████╗        ███████╗ ██████╗██████╗ ██╗  ██╗██████╗ ██████╗ ██████╗ 
+    ██║    ██║╚════██╗██╔══██╗        ████╗  ██║╚════██╗██║    ██║██╔════╝        ██╔════╝██╔════╝██╔══██╗██║  ██║██╔══██╗╚════██╗██╔══██╗
+    ██║ █╗ ██║ █████╔╝██████╔╝        ██╔██╗ ██║ █████╔╝██║ █╗ ██║███████╗        ███████╗██║     ██████╔╝███████║██████╔╝ █████╔╝██████╔╝
+    ██║███╗██║ ╚═══██╗██╔══██╗        ██║╚██╗██║ ╚═══██╗██║███╗██║╚════██║        ╚════██║██║     ██╔══██╗╚════██║██╔═══╝  ╚═══██╗██╔══██╗
+    ╚███╔███╔╝██████╔╝██████╔╝███████╗██║ ╚████║██████╔╝╚███╔███╔╝███████║███████╗███████║╚██████╗██║  ██║     ██║██║     ██████╔╝██║  ██║
+     ╚══╝╚══╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═════╝  ╚══╝╚══╝ ╚══════╝╚══════╝╚══════╝ ╚═════╝╚═╝  ╚═╝     ╚═╝╚═╝     ╚═════╝ ╚═╝  ╚═╝
+
+
 # W3B_N3WS_SCR4P3R
 This repository contains a Python tool designed to scrape news articles from popular Indonesian news websites, Jawapos.com and Jatim.Tribunnews.com. The scraper extracts headlines, article content, and publication dates, allowing for easy access to news data for research, analysis, or content aggregation.
 
@@ -15,15 +23,10 @@ Or You can Download Using Terminal, Clone The Repository
     git-clone https://github.com/slayerx-ekx/W3B_N3WS_SCR4P3R
 
 ## Required
-    selenium
-    webdriver_manajer
-    bs4
-    os
-    signaal
-    sys
-    datetime
-    time
     pandas
+    selenium
+    webdriver-manager
+    beautifulsoup4
 
 ## Featurs
 - retrieve date, headline, and news link data
@@ -38,9 +41,11 @@ Or You can Download Using Terminal, Clone The Repository
 - Second go to the folder where the python file is located
 - third library downloads required
 
+      pip install pandas
       pip install selenium
-      pip install webdriver_manajer
-      .....
+      pip install webdriver-manager
+      pip install beautifulsoup4
+      
 - if using linux can use virtual
 
         sudo apt install python3-venv

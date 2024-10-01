@@ -36,12 +36,30 @@ Or You can Download Using Terminal, Clone The Repository
 ## How To Run
 - First Download the file 
 - Second go to the folder where the python file is located
-- Third run the script
-- if using Linux
+- third library downloads required
 
-      python3 run.py
+      pip install selenium
+      pip install webdriver_manajer
+      .....
+- if using linux can use virtual
+
+        sudo apt install python3-venv
+- activate virtual 
+
+        python3 -m venv myvirtual
+        source myvirtual/bin/activate  
+        pip install -r required.txt
+
+- fourth run the script
+
+        python3 main.py
 
 ## Example
 
+
+![Screenshot_2](https://github.com/user-attachments/assets/67990bf2-caab-47f2-9e69-8e6b480db966)
+
+
+![Screenshot_1](https://github.com/user-attachments/assets/e1e6af00-9e41-4903-94d5-cc3409f5af0f)
 
 

@@ -1,0 +1,9 @@
+selenium
+webdriver_manajer
+bs4
+os
+signaal
+sys
+datetime
+time
+pandas
